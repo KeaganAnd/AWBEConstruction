@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     
-    background-image: url(/imgs/home_background.webp);
+    background-image: url(imgs/home_background.webp);
     background-repeat: no-repeat;
     background-size:cover ;
     height: 1000px;
