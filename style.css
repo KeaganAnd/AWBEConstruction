@@ -24,14 +24,16 @@
 }
 
 .certificationBanner {
-    height: 17%;
-    width: 17%;
+    height: 5vw;
+
 
 }
 
 body {
     background-color: #F6F7EB;
     margin: 0;
+
+text-align: center;
 
     /* #F6F7EB*/
 }
@@ -62,4 +64,37 @@ h1 {
     background-color: rgba(39, 169, 225, .9);
     padding:  25px 25px 25px 25px;
     font-style:italic;
+}
+
+#attentionGrabbers {
+    text-align: center;
+    font-size: 3vw;
+    color: rgb(39, 169, 225);
+    font-family: impact;
+}
+
+#points {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+#points img {
+    display:inline-block;
+    margin:5px 20px;
+    padding:5px;
+
+    width: 8vw;
+    height: 7vw;
+    
+}
+
+#points td {
+    width:min-content;
+}
+
+#points h2, p {
+    color: #666666;
 }
